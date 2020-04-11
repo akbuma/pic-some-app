@@ -5,6 +5,7 @@ import Photos from "./pages/Photos"
 
 import { Switch, Route } from "react-router-dom"
 import "./styles.css"
+import 'remixicon/fonts/remixicon.css'
 
 function App() {
     return (
