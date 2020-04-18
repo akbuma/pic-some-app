@@ -7,8 +7,6 @@ import { getClass } from "../utils"
 function Photos() {
     const { allPhotos } = useContext(Context)
 
-    console.log('Photos Class Updating!')
-
     const imageElements = allPhotos.map((img, i) => (
         <Image key={img.id} img={img} className={getClass(i)} />
     ))
